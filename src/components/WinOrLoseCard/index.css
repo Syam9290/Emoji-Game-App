@@ -1,0 +1,65 @@
+/* Write your code here. */
+
+.winOrLooseTextContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  margin-right: 30px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+}
+
+.text {
+  color: white;
+
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.scoreText {
+  color: white;
+
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.score {
+  color: #6a59ff;
+  font-size: 34px;
+
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.playAgainBtn {
+  background-color: #ffce27;
+  border: none;
+  border-radius: 10px;
+  padding: 7px;
+  width: 80px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .winOrLooseTextContainer {
+    order: 1;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .img {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+  }
+  .scoreText {
+    margin-top: 0px;
+  }
+}

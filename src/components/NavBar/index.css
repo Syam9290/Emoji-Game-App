@@ -1,0 +1,49 @@
+/* Write your code here. */
+
+.navBarContainer {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  height: 12vh;
+  display: flex;
+
+  opacity: 0.7;
+  color: white;
+  justify-content: space-between;
+}
+
+.logoSection {
+  display: flex;
+
+  margin-left: 40px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+
+  align-self: center;
+  margin-right: 3px;
+}
+
+.logoName {
+}
+
+.scoreContainer {
+  display: flex;
+
+  margin-right: 150px;
+  width: 250px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .navBarContainer {
+    height: 10vh;
+  }
+  .logoSection {
+    margin-left: 30px;
+  }
+  .scoreContainer {
+    margin-right: 30px;
+    width: 200px;
+  }
+}

@@ -1,0 +1,47 @@
+/* Write your code here. */
+
+.gameBg {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+}
+
+.emojiCardContainer {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.WinOrLooseContainer {
+  background-color: #ffffff33;
+  border-radius: 10px;
+
+  width: 50%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .emojiCardContainer {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .WinOrLooseContainer {
+    background-color: #ffffff33;
+    width: 67%;
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

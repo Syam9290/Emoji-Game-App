@@ -1,0 +1,36 @@
+/* Write your code here. */
+
+.emojiConatiner {
+  background-color: #ffffff33;
+
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.emojiBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.emojiImg {
+  height: 70px;
+  width: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .emojiConatiner {
+    width: 120px;
+    height: 120px;
+  }
+
+  .emojiImg {
+    height: 70px;
+    width: 70px;
+  }
+}
